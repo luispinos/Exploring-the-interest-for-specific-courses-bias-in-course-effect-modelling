@@ -1,0 +1,101 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "type": "SoftwareSourceCode",
+    "applicationCategory": "Technology for Human Learning",
+    "author": [
+        {
+            "id": "https://orcid.org/0000-0002-3694-3487",
+            "type": "Person",
+            "affiliation": {
+                "type": "Organization",
+                "name": "Centre for Digital Systems - CERI SN - IMT Nord Europe; imec itec KU Leuven"
+            },
+            "email": "luis.pinos.research@proton.me",
+            "familyName": "Pinos Ullauri",
+            "givenName": "Luis Alberto"
+        }
+    ],
+    "codeRepository": "https://github.com/luispinos/Exploring-the-interest-for-specific-courses-bias-in-course-effect-modelling.git",
+    "contributor": [
+        {
+            "id": "https://orcid.org/0000-0003-4011-219X",
+            "type": "Person",
+            "affiliation": {
+                "type": "Organization",
+                "name": "imec itec KU Leuven"
+            },
+            "email": "wim.vandennoortgate@kuleuven.be",
+            "familyName": "Van den Noortgate",
+            "givenName": "Wim"
+        },
+        {
+            "id": "https://orcid.org/0000-0002-0175-3181",
+            "type": "Person",
+            "affiliation": {
+                "type": "Organization",
+                "name": "Centre for Digital Systems - CERI SN - IMT Nord Europe"
+            },
+            "email": "anthony.fleury@imt-nord-europe.fr",
+            "familyName": "Fleury",
+            "givenName": "Anthony"
+        },
+        {
+            "id": "https://orcid.org/0000-0003-2104-8671",
+            "type": "Person",
+            "affiliation": {
+                "type": "Organization",
+                "name": "Centre for Digital Systems - CERI SN - IMT Nord Europe"
+            },
+            "email": "alexis.lebis@imt-nord-europe.fr",
+            "familyName": "Lebis",
+            "givenName": "Alexis"
+        },
+        {
+            "id": "https://orcid.org/0000-0003-1972-5629",
+            "type": "Person",
+            "affiliation": {
+                "type": "Organization",
+                "name": "ICL Junia - Catholic University of Lille"
+            },
+            "email": "abir.karami@univ-catholille.fr",
+            "familyName": "Karami",
+            "givenName": "Abir"
+        },
+        {
+            "id": "https://orcid.org/0000-0003-3646-1741",
+            "type": "Person",
+            "affiliation": {
+                "type": "Organization",
+                "name": "Centre for Digital Systems - CERI SN - IMT Nord Europe"
+            },
+            "email": "mathieu.vermeulen@imt-nord-europe.fr",
+            "familyName": "Vermeulen",
+            "givenName": "Mathieu"
+        }
+    ],
+    "dateCreated": "2022-09-10",
+    "dateModified": "2024-06-25",
+    "datePublished": "2024-06-25",
+    "description": "This is a simulation study to explore the effect of courses on soft skills, and how to mitigate possible confounding effects with the use of propensity scores as predictors.\n\nThere are 2 scripts:\n\nsynthetic_data_generation.R is the R script to generate the datasets with and without interests and with or without interactions.\n\nsynthetic_data_analysis_conference.R is used to analyse the generated datasets of the study.",
+    "funder": {
+        "type": "Organization",
+        "name": "ULNE i-site"
+    },
+    "identifier": "swh:1:snp:b28b0d02471ebd366c50e851fc04888ff6d9bb60;origin=https://github.com/luispinos/Exploring-the-interest-for-specific-courses-bias-in-course-effect-modelling",
+    "keywords": [
+        "courses",
+        "soft skills",
+        "modelling"
+    ],
+    "license": "https://spdx.org/licenses/BSD-3-Clause",
+    "name": "Exploring the interest for specific courses bias in course effect modelling",
+    "operatingSystem": [
+        "Windows",
+        "Linux"
+    ],
+    "programmingLanguage": "R",
+    "version": "1",
+    "developmentStatus": "active",
+    "funding": " F-FIDELO-19-008-FLEURY",
+    "referencePublication": "https://doi.org/10.3102/2008368"
+}
